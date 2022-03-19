@@ -58,6 +58,8 @@ class NFR4XChooseOnLineImage(Screen):
 			elif returnValue ==  'opennfr':
 				MBImagelist.remove(("7.1", _("7.1")))
 			elif returnValue ==  'pure2':
+				MBImagelist.remove(("6.3", _("6.3")))
+				MBImagelist.remove(("6.4", _("6.4")))
 				MBImagelist.remove(("7.0", _("7.0")))
 				MBImagelist.remove(("7.1", _("7.1")))
 			if returnValue ==  'opendroid':    	    
