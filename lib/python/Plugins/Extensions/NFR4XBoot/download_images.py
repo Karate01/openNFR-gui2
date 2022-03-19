@@ -49,15 +49,18 @@ class NFR4XChooseOnLineImage(Screen):
 		returnValue = self.sel[2]
 		if returnValue in ('opennfr', 'openhdf', 'openatv', 'pure2'): 
 			from Screens.Setup import Setup
-			MBImagelist = [("6.3", _("6.3")), ("6.4", _("6.4")), ("6.5", _("6.5")), ("7.0", _("7.0")), ("7.1", _("7.1"))]
+			MBImagelist = [("6.2", _("6.2")), ("6.3", _("6.3")), ("6.4", _("6.4")), ("6.5", _("6.5")), ("7.0", _("7.0")), ("7.1", _("7.1"))]
 			if returnValue ==  'openatv':
-				MBImagelist.remove(("6.3", _("6.3")))
+				MBImagelist.remove(("6.2", _("6.2")))
 			elif returnValue ==  'openhdf':
+				MBImagelist.remove(("6.2", _("6.2")))
 				MBImagelist.remove(("7.0", _("7.0")))
 				MBImagelist.remove(("7.1", _("7.1")))
 			elif returnValue ==  'opennfr':
+				MBImagelist.remove(("6.2", _("6.2")))
 				MBImagelist.remove(("7.1", _("7.1")))
 			elif returnValue ==  'pure2':
+				MBImagelist.remove(("6.2", _("6.2")))
 				MBImagelist.remove(("6.3", _("6.3")))
 				MBImagelist.remove(("6.4", _("6.4")))
 				MBImagelist.remove(("7.0", _("7.0")))
