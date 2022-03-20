@@ -92,21 +92,21 @@ class NFR4XChooseOnLineImage(Screen):
 		 idx,
 		 desc)
 		self.list.append(res)
-		mypixmap = mypath + 'openvix.png'
-		png = LoadPixmap(mypixmap)
-		name = _('OpenVIX')
-		desc = _('Download latest OpenVIX Image')
-		idx = 'openvix'
-		res = (name,
-		 png,
-		 idx,
-		 desc)
-		self.list.append(res)
 		mypixmap = mypath + 'openatv.png'
 		png = LoadPixmap(mypixmap)
 		name = _('OpenATV')
 		desc = _('Download latest OpenATV Image')
 		idx = 'openatv'
+		res = (name,
+		 png,
+		 idx,
+		 desc) 
+		self.list.append(res)
+		mypixmap = mypath + 'openeight.png'
+		png = LoadPixmap(mypixmap)
+		name = _('OpenEight')
+		desc = _('Download latest OpenEight Image')
+		idx = 'openeight'
 		res = (name,
 		 png,
 		 idx,
@@ -120,13 +120,13 @@ class NFR4XChooseOnLineImage(Screen):
 		res = (name,
 		 png,
 		 idx,
-		 desc)
+		 desc) 
 		self.list.append(res)
-		mypixmap = mypath + 'openeight.png'
+		mypixmap = mypath + 'openvix.png'
 		png = LoadPixmap(mypixmap)
-		name = _('OpenEight')
-		desc = _('Download latest OpenEight Image')
-		idx = 'openeight'
+		name = _('OpenVIX')
+		desc = _('Download latest OpenVIX Image')
+		idx = 'openvix'
 		res = (name,
 		 png,
 		 idx,
