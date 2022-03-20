@@ -54,6 +54,7 @@ class NFR4XChooseOnLineImage(Screen):
 				MBImagelist.remove(("6.2", _("6.2")))
 			elif returnValue ==  'openhdf':
 				MBImagelist.remove(("6.2", _("6.2")))
+				MBImagelist.remove(("6.3", _("6.3")))
 				MBImagelist.remove(("7.0", _("7.0")))
 				MBImagelist.remove(("7.1", _("7.1")))
 			elif returnValue ==  'opennfr':
