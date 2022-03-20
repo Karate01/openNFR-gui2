@@ -65,9 +65,6 @@ class NFR4XChooseOnLineImage(Screen):
 				MBImagelist.remove(("6.4", _("6.4")))
 				MBImagelist.remove(("7.0", _("7.0")))
 				MBImagelist.remove(("7.1", _("7.1")))
-			elif returnValue ==  'openvix':
-				MBImagelist.remove(("6.2", _("6.2")))
-				MBImagelist.remove(("7.1", _("7.1")))
 			if returnValue ==  'opendroid':    	    
 				config.usage.mbimageversion = ConfigSelection(default="6.6", choices = MBImagelist)	    
 			else:
