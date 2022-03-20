@@ -85,7 +85,7 @@ class NFR4XChooseOnLineImage(Screen):
 		mypixmap = mypath + 'opennfr.png'
 		png = LoadPixmap(mypixmap)
 		name = _('NFR')
-		desc = _('Download latest NFR Image')
+		desc = _('Download NFR Images')
 		idx = 'opennfr'
 		res = (name,
 		 png,
@@ -95,7 +95,7 @@ class NFR4XChooseOnLineImage(Screen):
 		mypixmap = mypath + 'openatv.png'
 		png = LoadPixmap(mypixmap)
 		name = _('OpenATV')
-		desc = _('Download latest OpenATV Image')
+		desc = _('Download OpenATV Images')
 		idx = 'openatv'
 		res = (name,
 		 png,
@@ -105,7 +105,7 @@ class NFR4XChooseOnLineImage(Screen):
 		mypixmap = mypath + 'openeight.png'
 		png = LoadPixmap(mypixmap)
 		name = _('OpenEight')
-		desc = _('Download latest OpenEight Image')
+		desc = _('Download OpenEight Images')
 		idx = 'openeight'
 		res = (name,
 		 png,
@@ -115,7 +115,7 @@ class NFR4XChooseOnLineImage(Screen):
 		mypixmap = mypath + 'openhdf.png'
 		png = LoadPixmap(mypixmap)
 		name = _('OpenHDF')
-		desc = _('Download latest OpenHDF Image')
+		desc = _('Download OpenHDF Images')
 		idx = 'openhdf'
 		res = (name,
 		 png,
@@ -125,7 +125,7 @@ class NFR4XChooseOnLineImage(Screen):
 		mypixmap = mypath + 'openvix.png'
 		png = LoadPixmap(mypixmap)
 		name = _('OpenVIX')
-		desc = _('Download latest OpenVIX Image')
+		desc = _('Download OpenVIX Images')
 		idx = 'openvix'
 		res = (name,
 		 png,
@@ -135,7 +135,7 @@ class NFR4XChooseOnLineImage(Screen):
 		mypixmap = mypath + 'pure2.png'
 		png = LoadPixmap(mypixmap)
 		name = _('PurE2')
-		desc = _('Download latest PurE2 Image')
+		desc = _('Download PurE2 Images')
 		idx = 'pure2'
 		res = (name,
 		 png,
