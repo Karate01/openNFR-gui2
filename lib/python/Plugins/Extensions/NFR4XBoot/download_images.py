@@ -47,7 +47,7 @@ class NFR4XChooseOnLineImage(Screen):
 		global mbimageValue
 		self.sel = self['list'].getCurrent()
 		returnValue = self.sel[2]
-		if returnValue in ('opennfr', 'openhdf', 'openatv', 'pure2', 'openvix'): 
+		if returnValue in ('opennfr', 'openhdf', 'openatv', 'pure2'): 
 			from Screens.Setup import Setup
 			MBImagelist = [("6.2", _("6.2")), ("6.3", _("6.3")), ("6.4", _("6.4")), ("6.5", _("6.5")), ("7.0", _("7.0")), ("7.1", _("7.1"))]
 			if returnValue ==  'openatv':
